@@ -1,0 +1,14 @@
+p{
+    background-color: yellow;
+}
+body{
+    background-color: lightblue ;
+}
+
+.mi-clase{
+    font-size: 20px;
+}
+
+#miID{
+    text-align: center;
+}
