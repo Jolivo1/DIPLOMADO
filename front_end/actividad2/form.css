@@ -1,0 +1,111 @@
+html, body{
+    margin: 0;
+    height: 100%;}
+* {box-sizing: border-box;}
+body {
+    background-color: #151e33;
+    color: white;
+    font-family: sans-serif;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: #e3627f;
+    text-decoration: none;
+}
+
+.Login p{
+
+    font-size: 16px;
+    line-height: 16px;
+    
+    font-family: "Helvetica Neue";
+    text-align: right;
+    margin-bottom: 3rem;
+    margin-top: -1rem;
+}
+
+
+.Cuerpo{
+
+    width: 100%;
+    max-width: 785px ;
+    min-width: 320px;
+    margin:  auto;
+    background-color: #1b263e;
+    border-radius: 15px;
+    padding: 3rem;
+    
+}
+
+.Content{
+    width: 65%;
+    margin: 3rem auto;
+
+}
+
+.Content h1{
+    font-family: 26px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Content p{
+    font-family: "Helvetica Neue";
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+    width: 65%;
+    margin: auto ;
+    margin-bottom: 2rem;
+}
+
+.Form label {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: bold;
+    font-family: "Helvetica Neue";
+    display: block;
+    border: none;
+    
+}
+
+.Form input{
+    display: block;
+    border: none;
+    width: 100%;
+    font-family: "Helvetica Neue";
+    margin-bottom: 1rem;
+    
+   
+
+}
+
+.Form input:not([type="submit"]){
+
+    border: 1px solid #495e8d;
+    background-color: transparent;
+    padding: 1.5rem;
+    font-size: 16px;
+    color: white;
+}
+
+.Form input[type="submit"] {
+    
+    padding: 1.5rem 2rem;
+    border-radius: 5px;
+    background-color: #e3627f;
+    display: block;
+    margin-top: 2rem;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+
+

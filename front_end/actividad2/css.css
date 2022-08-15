@@ -1,0 +1,62 @@
+*{font-family: sans-serif;}
+body{
+
+    background-image: url(https://thumbs.dreamstime.com/z/concepto-de-matem%C3%A1ticas-l%C3%A1pices-y-coloridos-n%C3%BAmero-calcoman%C3%ADas-en-fondo-blanco-copie-espacio-suministros-escolares-utilizados-170813797.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    padding: 3rem;
+}
+.title{
+    text-align: center;
+}
+.table{
+    display: flex;
+    justify-content: center;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.main{
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.form{
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.list{
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-right: 3rem;
+}
+.title{
+    font-size: 3rem;
+    text-decoration: underline;
+}
+a:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+.sign-in{
+    text-align: end;
+    font-size: 1.4rem;
+    text-decoration: overline;
+
+}
