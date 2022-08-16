@@ -4,27 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Actividad 3</title>
 </head>
 <body>
-    <main>
-        <h1>Actividad 3</h1>
+    <main >
+        <h1 class="text-center">Actividad 3</h1>
 
         <form>
             <label for="num1">Num 1</label>
             <input id="num1" type="number">
             <label for="num2">Num 2</label>
             <input id="num2" type="number">
+            <br>
+        </form>
+        <div class="container">
+            <button id="calcular">Calcular</button>
             <select name="op" id="option">
                 <option>Suma</option>
                 <option>Resta</option>
                 <option>Multiplicacion</option>
                 <option>Division</option>
             </select>
-        </form>
-        <button id="calcular">Calcular</button>
+
+        </div>
         
-        <h3 id="resultado"></h3>
+        
+        <h3 id="resultado" class="resultado">0</h3>
     </main>
     <script src="js.js"></script>
 </body>
