@@ -19,27 +19,27 @@
                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                         <img class="img-fluid" height="400px" width="400px" src="https://cdn.pixabay.com/photo/2017/11/10/04/47/user-2935373_960_720.png" alt="User">
                     </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 align-self-center">
                         <div class="row mb-3">
                             <div class="col-6">
-                              <input type="text" id="Nombre" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                              <input type="text" id="nombre" class="form-control" placeholder="Nombre" aria-label="Nombre">
                             </div>
                             <div class="col-6">
-                              <input type="text" id="Apellido" class="form-control" placeholder="Apellido" aria-label="Apellido">
+                              <input type="text" id="apellido" class="form-control" placeholder="Apellido" aria-label="Apellido">
                             </div>
                           </div>
 
                           <div class="row">
                             <div class="col-4">
-                              <input type="text" class="form-control" placeholder="Edad" aria-label="Edad">
+                              <input type="text" id="edad" class="form-control" placeholder="Edad" aria-label="Edad">
                             </div>
                             <div class="col-8">
-                              <input type="text" class="form-control" placeholder="Direccion" aria-label="Direccion">
+                              <input type="text" id="direccion" class="form-control" placeholder="Direccion" aria-label="Direccion">
                             </div>
                           </div>
 
-                          <button class="btn btn-primary mt-5">Registrar</button>
-                          <button class="btn btn-primary mt-5">Listar</button>
+                          <button class="btn btn-primary mt-5" id="registrar">Registrar</button>
+                          <button class="btn btn-warning mt-5" id="listar">Listar</button>
                     </div>
                 </div>
             </div>
@@ -56,16 +56,13 @@
             <th class="text-center" scope="col">Direccion</th>
           </tr>
         </thead>
-        <tbody>
-          <tr>
-            <td class="text-center">Joaquin</th>
-            <td class="text-center">Olivo</td>
-            <td class="text-center">22</td>
-            <td class="text-center">Calle 5</td>
-          </tr>
+        <tbody id="tabla">
+          
           
         </tbody>
       </table>
     </div>
+
+    <script src="registro.js"></script>
 </body>
 </html>
